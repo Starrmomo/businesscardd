@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.code {
+    margin-top: 88px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    border: 1px solid white;
+    width: 50px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-left: 75px;
+    margin-bottom: 0px;
+
+
+
+}
+
+.headd {
+    flex: 5px;
+    padding-right: 50px;
+    padding-top: 7px;
+}
+
+.name {
+    margin-bottom: 0px;
+}
+
+.pose {
+    margin-top: 0px;
+}
+
+.headd2 {
+    display: inline;
+    margin-top: 55px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 6fr;
+    margin-bottom: 0%;
+
+
+}
+
+
+
+
+.head {
+
+
+    padding: 40px;
+    margin-top: 1px;
+}
+
+
+.head2 {
+    margin-top: 0px;
+    margin-right: 0px;
+    text-align: center;
+    padding-right: 0px;
+
+
+}
+
+.head3 {
+    margin-top: 0px;
+    padding-right: 0px;
+    /* margin-bottom: 25px; */
+}
+
+
+
+.divider {
+    border-left: 2px solid teal;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    /* margin-left: 40px; */
+    margin-right: 40px;
+
+}
+
+.innercard {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    background-color: white;
+    border-radius: 13px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    height: 360px;
+
+
+
+}
+
+.outercard {
+    background-color: teal;
+    padding: 35px;
+    margin-bottom: 0%;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 360px;
+
+}
+
+.add {
+    width: 15px;
+    border: 2px solid black;
+    border-radius: 25px;
+
+
+}
+
+.web {
+    width: 15px;
+    border: 2px solid black;
+    border-radius: 25px;
+
+}
+
+.mail {
+    width: 15px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.cal {
+    width: 15px;
+    border: 2px solid black;
+    border-radius: 25px;
+
+
+}
+
+.logo {
+    width: 70px;
+    text-align: center;
+    padding-left: 68px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+
+
+}
