@@ -1,29 +1,29 @@
 
 let Acct1 = {
     Name: "ade",
-    Balance: 80000,
-    Currency: "NGN",
+    Balance: 8000,
+    Currency: "USD",
     Type: "Savings",
  };
  
 let Acct2 = {
     Name: "idowu",
     Balance: 20000,
-    Currency: "NGN" ,
+    Currency: "USD" ,
     Type: "Savings",
  };
  
 let Acct3 = {
     Name: "fatima",
     Balance: 90000,
-    Currency: "NGN" ,
+    Currency: "EUR" ,
     Type: "Savings",
  };
  
 let Acct4 = {
     Name: "starr",
     Balance: 40000,
-    Currency: "NGN" ,
+    Currency: "EUR" ,
     Type: "Checking",
  };
  
@@ -45,18 +45,18 @@ console.log("The current balance2 is: " + Acct2.Balance)
 // "Withdrawal denied for <name>: insufficient funds"
  
 let withdrawalamount3 = 2000
-let withdrawalamount4 = 12000
+let withdrawalamount4 = 1200
  
-Acct3.Balance -= withdrawalamount3
+
 if (Acct3.Balance >= withdrawalamount3) {
-    console.log (Acct3.Balance -= withdrawalamount3)
+    (Acct3.Balance -= withdrawalamount3)
    
 } else {
     console.log ( "insufficient balance")
    
 }
  
-Acct4.Balance -= withdrawalamount4
+
 if (Acct4.Balance >= withdrawalamount4) {
     console.log (Acct4.Balance -= withdrawalamount4)
    
